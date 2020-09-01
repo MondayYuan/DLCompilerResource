@@ -25,6 +25,8 @@ Note: 同一论文在不同分类目录下可能会出现多次
 - [Stripe: Tensor Compilation via the Nested Polyhedral Model](./pdf/Stripe.pdf)
 
   > 用polyhedral进行算子生成
+  
+- [XLA](https://www.tensorflow.org/xla)
 
 #### survey
 
