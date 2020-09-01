@@ -83,7 +83,7 @@ Note: 同一论文在不同分类目录下可能会出现多次
 > 把schedule分成sketch和annotation两层，sketch相当于TVM的schedule template，Ansor可以先搜索出sketch，再搜索annotation。
 
 - [CHAMELEON: ADAPTIVE CODE OPTIMIZATION FOR
-  EXPEDITED DEEP NEURAL NETWORK COMPILATION](./pdf/chameleon_adaptive_code_optimization_for_expedited_deep_neural_network_compilation-Original Pdf.pdf)
+  EXPEDITED DEEP NEURAL NETWORK COMPILATION](./pdf/chameleon.pdf)
 
 > 用强化学习来做schedule搜索
 
@@ -113,7 +113,7 @@ Note: 同一论文在不同分类目录下可能会出现多次
 
 > 两篇关于自动微分的survey
 
-- [IREE: MLIR-based End-to-End ML Tooling](./pdf/IREE Jan 2020 MLIR ODM- External.pdf)
+- [IREE: MLIR-based End-to-End ML Tooling](./pdf/IREE.pdf)
 
 > schedule和execution阶段进行联合优化
 
