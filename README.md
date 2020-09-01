@@ -4,25 +4,25 @@ Note: 同一论文在不同分类目录下可能会出现多次
 
 #### DL编译框架 
 
-- TVM: An Automated End-to-End Optimizing Compiler for Deep Learning
+- [TVM: An Automated End-to-End Optimizing Compiler for Deep Learning](./pdf/TVM.pdf)
 
-- Tensor Comprehensions: Framework-Agnostic High-Performance Machine Learning Abstractions
+- [Tensor Comprehensions: Framework-Agnostic High-Performance Machine Learning Abstractions](./pdf/TC.pdf)
 
-- Intel® nGraph™: An Intermediate Representation, Compiler, and Executor for Deep Learning
+- [Intel® nGraph™: An Intermediate Representation, Compiler, and Executor for Deep Learning](./pdf/nGraph.pdf)
 
-- MLIR: A Compiler Infrastructure for the End of Moore’s Law
+- [MLIR: A Compiler Infrastructure for the End of Moore’s Law](./pdf/MLIR.pdf)
 
   > 模块化设计，可以整合不同编译器的DL编译器框架
 
-- DLVM: A MODERN COMPILER INFRASTRUCTURE FOR DEEP LEARNING SYSTEMS
+- [DLVM: A MODERN COMPILER INFRASTRUCTURE FOR DEEP LEARNING SYSTEMS](./pdf/DLVM.pdf)
 
-- Glow: Graph Lowering Compiler Techniques for Neural Networks
+- [Glow: Graph Lowering Compiler Techniques for Neural Networks](./pdf/GLOW.pdf)
 
 - [Halide: A Language and Compiler for Optimizing Parallelism, Locality, and Recomputation in Image Processing Pipelines](./pdf/halide-pldi13.pdf) 
 
   > Halide用于图像处理领域的算子生成，首次提出计算和调度分离的思想，后被TVM拓展到深度学习领域
 
-- Stripe: Tensor Compilation via the Nested Polyhedral Model
+- [Stripe: Tensor Compilation via the Nested Polyhedral Model](./pdf/Stripe.pdf)
 
   > 用polyhedral进行算子生成
 
@@ -32,7 +32,7 @@ Note: 同一论文在不同分类目录下可能会出现多次
 
 > 一篇很好的DL编译器的survey，总结了DL编译器的设计框架
 
-![image-20200831204337565](C:\Users\yiyuan\AppData\Roaming\Typora\typora-user-images\image-20200831204337565.png)
+![image-20200831204337565](./img/image-20200831204337565.png)
 
 - [An In-depth Comparison of Compilers for Deep Neural Networks on Hardware](./pdf/ComparisonCompiler.pdf)
 
@@ -46,7 +46,7 @@ Note: 同一论文在不同分类目录下可能会出现多次
 
 #### TVM系列工作
 
-- TVM: An Automated End-to-End Optimizing Compiler for Deep Learning
+- [TVM: An Automated End-to-End Optimizing Compiler for Deep Learning](./pdf/TVM.pdf)
 - [Relay: A New IR for Machine Learning Frameworks](./pdf/relay.pdf)
 - [Relay: A High-Level Compiler for Deep Learning](./pdf/Relay-Compiler.pdf)
 
@@ -60,30 +60,30 @@ Note: 同一论文在不同分类目录下可能会出现多次
 
 #### Auto-tuning相关工作
 
-- Automatically tuned linear algebra software.(ATLAS, 1998)
+- Automatically tuned linear algebra software(ATLAS, 1998)
 
-- Halide: A language and compiler for optimizing parallelism, locality, and recomputation in image processing pipelines.(2013)
+- [Halide: A language and compiler for optimizing parallelism, locality, and recomputation in image processing pipelines](./pdf/halide-pldi13.pdf)(2013)
 
-- OpenTuner: An extensible framework for program autotuning(2014)
+- [OpenTuner: An extensible framework for program autotuning](./pdf/ansel-pact14-opentuner.pdf)(2014)
 
-- Automatically Scheduling Halide Image Processing Pipelines(2016)
+- [Automatically Scheduling Halide Image Processing Pipelines](./pdf/mullapudi16_halidesched.pdf)(2016)
 
-- Tensor Comprehensions: Framework-Agnostic High-Performance Machine Learning Abstractions(2018.2)
+- [Tensor Comprehensions: Framework-Agnostic High-Performance Machine Learning Abstractions](./pdf/TC.pdf)(2018.2)
 
-- Learning to Optimize Tensor Programs (Auto-TVM, 2018.5)
+- [Learning to Optimize Tensor Programs](./pdf/LearnToOptimizeTensorPrograms.pdf) (Auto-TVM, 2018.5)
 
-- Learning to Optimize Halide with Tree Search and Random Programs(2019)
+- [Learning to Optimize Halide with Tree Search and Random Programs](./pdf/halide_autoscheduler_2019.pdf)(2019)
 
   下面两篇都是基于TVM做的template-free工作
 
-- FlexTensor: An Automatic Schedule Exploration and Optimization Framework for Tensor Computation on Heterogeneous System(2020.2)
+- [FlexTensor: An Automatic Schedule Exploration and Optimization Framework for Tensor Computation on Heterogeneous System](./pdf/ASPLOS_FlexTensor__ACM_SIGPLAN_Proceedings_Format.pdf)(2020.2)
 
-- Ansor: Generating High-Performance Tensor Programs for Deep Learning(2020.6)
+- [Ansor: Generating High-Performance Tensor Programs for Deep Learning](./pdf/Ansor.pdf)(2020.6)
 
 > 把schedule分成sketch和annotation两层，sketch相当于TVM的schedule template，Ansor可以先搜索出sketch，再搜索annotation。
 
-- CHAMELEON: ADAPTIVE CODE OPTIMIZATION FOR
-  EXPEDITED DEEP NEURAL NETWORK COMPILATION
+- [CHAMELEON: ADAPTIVE CODE OPTIMIZATION FOR
+  EXPEDITED DEEP NEURAL NETWORK COMPILATION](./pdf/chameleon_adaptive_code_optimization_for_expedited_deep_neural_network_compilation-Original Pdf.pdf)
 
 > 用强化学习来做schedule搜索
 
@@ -103,13 +103,13 @@ Note: 同一论文在不同分类目录下可能会出现多次
 
 - [MLIR文章视频汇总](https://zhuanlan.zhihu.com/p/141256429?utm_source=wechat_session&utm_medium=social&utm_oi=837261071604645888&wechatShare=1&s_r=0)
 
-- Multi-Level Tactics: Abstraction Raising in Multi-Level IR
-- FUSIONSTITCHING: DEEP FUSION AND CODE GENERATION FOR TENSORFLOW COMPUTATIONS ON GPUS
+- [Multi-Level Tactics: Abstraction Raising in Multi-Level IR](./pdf/)
+- [FUSIONSTITCHING: DEEP FUSION AND CODE GENERATION FOR TENSORFLOW COMPUTATIONS ON GPUS](./pdf/FusionStitching.pdf)
 
 > 用shared memory来实现更激进的operator fusion策略
 
-- Automatic differentiation in ML: Where we are and where we should be going
-- Automatic Differentiation in Machine Learning: a Survey
+- [Automatic differentiation in ML: Where we are and where we should be going](./pdf/AutoDiffinML.pdf)
+- [Automatic Differentiation in Machine Learning: a Survey](./pdf/AutoDiffSurvey.pdf)
 
 > 两篇关于自动微分的survey
 
@@ -129,3 +129,5 @@ Note: 同一论文在不同分类目录下可能会出现多次
 > 用TVM在神威超算上生成算子 
 
 - [TensorFlow Graph Optimizations](./pdf/TFGraphOptimizationsStanford.pdf)
+
+> TensorFow中的图优化
